@@ -1,1 +1,1 @@
-# WENO-NN-Oceananigans-
+# WENO-iNN-Oceananigans
