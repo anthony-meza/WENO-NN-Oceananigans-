@@ -16,10 +16,8 @@ using Oceananigans.Utils: prettytime
 
 using Oceananigans.Diagnostics: accurate_cell_advection_timescale
 
-using Oceananigans.Models.HydrostaticFreeSurfaceModels: VectorInvariant
 using Oceananigans.OutputReaders: FieldTimeSeries, @compute
-
-using Oceananigans.Advection: ZWENO, WENOVectorInvariant
+using Oceananigans.Advection: VelocityStencil
 #####
 ##### The Bickley jet
 #####
